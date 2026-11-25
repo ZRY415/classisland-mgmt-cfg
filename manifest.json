@@ -1,0 +1,21 @@
+{
+  "ServerKind": 0,
+  "CoreVersion": "2.0.0.0",
+  "OrganizationName": "五班开发人员",
+  "ClassPlanSource": {
+    "Value": "https://cdn.jsdelivr.net/gh/ZRY415/classisland-mgmt-cfg@main/{id}/classplans.json?v=1",
+    "Version": 1
+  },
+  "TimeLayoutSource": {
+    "Value": "https://cdn.jsdelivr.net/gh/ZRY415/classisland-mgmt-cfg@main/timelayouts.json?v=1",
+    "Version": 1
+  },
+  "SubjectsSource": {
+    "Value": "https://cdn.jsdelivr.net/gh/ZRY415/classisland-mgmt-cfg@main/subjects.json?v=1",
+    "Version": 1
+  },
+  "PolicySource": {
+    "Value": "https://cdn.jsdelivr.net/gh/ZRY415/classisland-mgmt-cfg@main/policy.json?v=1",
+    "Version": 1
+  }
+}
