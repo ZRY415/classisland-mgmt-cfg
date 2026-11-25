@@ -1,0 +1,13 @@
+name: Purge jsDelivr cache
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge manifest from jsDelivr
+        run: |
+          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/manifest.json" || true
